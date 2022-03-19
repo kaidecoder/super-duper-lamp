@@ -1,7 +1,8 @@
 class Puppy {
-    constructor(name, breed){
+    constructor(name, breed, color){
       this.name = name
       this.breed = breed
+      this.color = color
     }
   
     speak() {
@@ -9,7 +10,7 @@ class Puppy {
     }
   
     about() {
-      console.log(`${name} is just a lil pup. He's a ${breed}`)
+      console.log(`${name} is just a lil ${color} pup. He's a ${breed}`)
     }
   }
   
